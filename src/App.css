@@ -9,11 +9,24 @@
 body{
   background-image: url('./assets/backgroud.jpg');
   background-size:contain;
+
 }
 
-img{
+.box{
+  width: 250px;
+  height: 200px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 5px;
+}
+
+.img{
   border-style:solid;
-  border-color: rgb(255, 0, 0);
+  border-color: rgb(255, 255, 255);
+  background-image: url('./assets/pic.jpg');
+  margin: 0px;
+  width: 1250px;
+  height: 832px;
   border-width: 10px;
 }
 

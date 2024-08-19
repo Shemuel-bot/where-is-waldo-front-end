@@ -1,0 +1,27 @@
+.drop{
+    background-color: rgba(255, 0, 0, 0.911);
+    color: white;
+
+    width: 100px;
+    height: 100px;
+
+    animation-duration: 1s;
+    animation-name: dropdown;
+    animation-iteration-count: 1;
+
+    padding-bottom: 5px;
+
+    border-radius: 5px;
+}
+.drop>ul{
+    list-style-type: none;
+}
+
+@keyframes dropdown {
+    from{
+         height: 0px;
+    }
+    to{
+        height: 100px;
+    }
+}
