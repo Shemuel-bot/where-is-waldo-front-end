@@ -3,8 +3,8 @@ const box = (e)=>{
     const a = document.querySelector('.box');
     const b = document.createElement('div');
     const c = document.querySelector('.drop');
-    const x = e.clientX - (250 / 2);
-    const y = e.clientY - 100;
+    const x = e.clientX - 25;
+    const y = e.clientY - 25;
 
     if( a != null)
         a.remove();
