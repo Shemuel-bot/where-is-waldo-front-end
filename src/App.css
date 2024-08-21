@@ -20,6 +20,12 @@ body{
   border-width: 5px;
 }
 
+.ex{
+  background-image: url('./assets/X.png');
+  width: 30px;
+  height: 30px;
+}
+
 .img{
   border-style:solid;
   border-color: rgb(255, 255, 255);

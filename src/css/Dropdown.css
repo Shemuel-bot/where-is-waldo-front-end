@@ -1,20 +1,33 @@
 .drop{
     background-color: rgba(255, 0, 0, 0.911);
-    color: white;
 
     width: 100px;
-    height: 100px;
+    height: 150px;
 
     animation-duration: 0.5s;
     animation-name: dropdown;
     animation-iteration-count: 1;
 
     padding-bottom: 5px;
+    padding-top: 5px;
 
     border-radius: 5px;
 }
 .drop>ul{
     list-style-type: none;
+}
+button{
+    
+    height: auto;
+    font-size: 13px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #00000000;
+    cursor: pointer;
+    transition: border-color 0.25s;
 }
 
 @keyframes dropdown {
@@ -22,6 +35,6 @@
          height: 0px;
     }
     to{
-        height: 100px;
+        height: 150px;
     }
 }

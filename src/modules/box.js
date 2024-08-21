@@ -5,6 +5,7 @@ const box = (e)=>{
     const c = document.querySelector('.drop');
     const x = e.clientX - 25;
     const y = e.clientY - 25;
+     
 
     if( a != null)
         a.remove();
@@ -22,5 +23,6 @@ const box = (e)=>{
     c.style.position = 'absolute';
     c.style.left = `${x - 105}px`;
     c.style.top = y+'px';
+
 }
 export default box
