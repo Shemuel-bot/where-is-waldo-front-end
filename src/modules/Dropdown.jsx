@@ -2,7 +2,7 @@ import ex from './ex';
 import '../css/Dropdown.css'
 
 const submit = async (name) => {
-  return fetch('http://localhost:3000/select-character', {
+  return fetch('https://where-is-waldo-backend.adaptable.app/select-character', {
     method: 'post',
     headers: {
       "Content-Type": "application/json",
